@@ -1,0 +1,123 @@
+ <div class="section_sc5_in">
+        <div class="scWrap">
+            <div class="scBody-2">
+                <div class="container-inner articleText clearfix">
+                    <p>
+                        Di antara sejumlah responden yang memilih jembatan penyeberangan, lebih dari 50 persen mengatakan bahwa alasannya adalah keamanan dan keselamatan. Penggunaan <i>pelican crossing</i>
+                        paling sedikit. Hal itu mungkin karena ketersediaan fasilitas tersebut di Jakarta memang masih terbatas. 
+                    </p>
+                    <p>
+                        Berdasarkan survei 
+                        <i>
+                            <b>online</b>
+                        </i>
+                        , jumlah responden yang tidak pernah memakai <i>pelican crossing</i>
+                        <b>tertinggi (12 persen)</b>
+                        , sedangkan <i>zebra cross</i>
+                        dan jembatan penyeberangan masing-masing <b>3</b>
+                        dan <b>7</b>
+                        persen.
+                    </p>
+                    <p>
+                        Banyak warga belum akrab dengan <i>pelican crossing</i>
+                        . Buktinya, di Balai Kota, masih banyak warga yang kebingungan untuk memencet tombol lampu indikator.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section" id="section_sc6">
+    <div class="scWrap">
+        <div class="scHead">
+            <div class="container-inner clearfix">
+                <img src="./img/ornaments/sc_6-head.svg" alt="Masalah">
+            </div>
+        </div>
+        <div class="scBody">
+            <div class="container-inner articleText clearfix">
+                <p>
+                    Hasil survei <i>online</i>
+                    mengungkap bahwa masalah terbesar saat menyeberang adalah kendaraan bermotor.
+                </p>
+                <div class="imgItem">
+                    <img src="./img/problem-1.png" alt="Problem 1">
+                </div>
+                <div class="imgItem">
+                    <div class="boxGray">
+                        <p>
+                            Jembatan penyeberangan memang mengatasi masalah keamanan. Namun demikian, fasilitas tersebut dianggap tidak nyaman. Sebanyak <b>60 persen</b>
+                            responden mengaku harus <b>berhenti di tengah jembatan karena kelelahan</b>
+                            . <b>59 persen</b>
+                            responden merasa jembatan penyeberangan licin sehingga <b>43 persen</b>
+                            harus <b>berpegangan karena takut jatuh terpeleset.</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="imgItem">
+                    <img src="./img/problem-2.png" alt="Problem 2">
+                </div>
+                <div class="imgItem">
+                    <img src="./img/problem-3.png" alt="Problem 3">
+                </div>
+                <div class="imgItem">
+                    <div class="boxGray">
+                        <p>
+                            <i>Zebra cross</i>
+                            lebih nyaman karena dianggap bisa membantu menyeberang lebih cepat dan mudah diakses.
+                        </p>
+                        <p>
+                            Jika <i>zebra cross</i>
+                            di-<i>upgrade</i>
+                            menjadi <i>pelican crossing</i>
+                            , keamanannya dianggap lebih tinggi dari jembatan penyeberangan dan tetap memberikan kenyamanan.
+                        </p>
+                    </div>
+                </div>
+                <div class="imgItem">
+                    <div class="imgItem-blockquote">
+                        <p>
+                            <b>Syifa</b>
+                            , pengguna <i>pelican crossing</i>
+                            Kebon Jeruk, mengatakan,
+                        </p>
+                        <blockquote>“Merasa aman saat menyeberang karena mobil dan motor akan berhenti saat lampu penyeberangan menyala.”
+		            </blockquote>
+                    </div>
+                </div>
+                <div class="imgItem">
+                    <div class="imgItem-blockquote">
+                        <p>
+                            <b>Ishak Burhan</b>
+                            , laki-laki pengguna <i>pelican crossing</i>
+                            di Balai Kota menuturkan,
+                        </p>
+                        <blockquote>“Alasan memilih penyeberangan ini karena terasa aman karena sudah dilengkapi dengan rambu lalu lintas dan waktu menyeberang.”
+		            </blockquote>
+                    </div>
+                </div>
+                <div class="imgItem">
+                    <div class="boxGray">
+                        <p>
+                            Hasil penghitungan pada saat observasi juga menunjukkan signifikansi peran <b>Alat Pemberi Isyarat Lalu Lintas (APILL)</b>
+                            yang terdapat di <i>pelican crossing</i>
+                            .
+                        </p>
+                        <p>
+                            Di Kebon Jeruk, selama observasi dijumpai <b>88</b>
+                            dari <b>215</b>
+                            kendaraan yang tidak menaati APILL dan melangkahi garis penyeberangan. Di Jalan Enggano yang <b>tidak memiliki APILL</b>
+                            , angkanya jauh lebih besar. Dari <b>340</b>
+                            kendaraan yang lewat, hanya <b>11</b>
+                            yang mematuhi APILL.
+                        </p>
+                        <p>
+                            Ini mengonfirmasi anggapan bahwa <i>pelican crossing</i>
+                            lebih aman.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
