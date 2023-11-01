@@ -141,12 +141,12 @@ input:focus:-moz-placeholder,input:focus:-ms-input-placeholder,input:focus::-moz
 }
 
 .mb-250 {
-    margin-bottom: 250px
+    margin-bottom: 150px
 }
 
 @media (max-width: 640px) {
     .mb-250 {
-        margin-bottom:100px
+        margin-bottom:50px
     }
 }
 
@@ -192,16 +192,18 @@ input:focus:-moz-placeholder,input:focus:-ms-input-placeholder,input:focus::-moz
 }
 
 .container-inner {
-    max-width: 700px;
+    max-width: 768px;
     padding-right: 15px;
     padding-left: 15px
 }
+
 
 @media (max-width: 640px) {
     .container-inner {
         max-width:100%
     }
 }
+
 
 .mb-0 {
     margin-bottom: 0!important
@@ -695,7 +697,7 @@ main {
 .section {
     position: relative;
     overflow: hidden;
-    padding: 80px 0
+    padding: 70px 0
 }
 
 .sectionTitle {
@@ -809,10 +811,11 @@ main {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 100%;
-    left: 25vw;
+    left: 15vw;
+    top: 65vw;
     bottom: 0;
     width: 90%;
-    height: 50%;
+    height: 65%;
     pointer-events: none;
     filter: opacity(40%);
 }
@@ -839,7 +842,7 @@ main {
 
 @media (max-width: 640px) {
     #section_intro .f_big {
-        font-size:17vw
+        font-size:12vw
     }
 }
 
@@ -891,12 +894,13 @@ main {
 
 @media (max-width: 640px) {
     #section_keluhan .scHead {
-        padding:60px 0 90px
+        padding:200px 0 90px;
     }
 }
 
 #section_keluhan .scHead:before {
     content: "";
+    display: flex;
     position: absolute;
     background-image: url(../img/ornaments/ornament-trotoar.svg);
     background-repeat: no-repeat;
@@ -907,19 +911,6 @@ main {
     width: 100%;
     height: 100%;
     pointer-events: none
-}
-
-
-@media (max-width: 768px) {
-    #section_keluhan .scHead h2 {
-        font-size:100px
-    }
-}
-
-@media (max-width: 640px) {
-    #section_keluhan .scHead h2 {
-        font-size:80px
-    }
 }
 
 #section_keluhan .scHead .loudspeaker {
@@ -938,8 +929,10 @@ main {
 
 @media (max-width: 640px) {
     #section_keluhan .scHead .loudspeaker {
-        width:180px;
-        height: 160px
+        width:140px;
+        height: 120px;
+        top: 35vw;
+        left: 0;
     }
 }
 
@@ -975,7 +968,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    right: 110%;
+    right: 50%;
     top: 0;
     width: 122px;
     height: 129px;
@@ -1000,7 +993,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    left: 110%;
+    left: 50%;
     bottom: 0;
     width: 200px;
     height: 212px;
@@ -1088,6 +1081,7 @@ main {
     width: 100%;
     position: relative;
     overflow: hidden;
+    display: flex;
     height: 0
 }
 
@@ -1862,7 +1856,8 @@ p.source-content {
 
 @media (max-width: 640px) {
     .coverMain-svg {
-        bottom:0
+        bottom:15vw;
+        scale: 50%;
     }
 }
 
@@ -1969,6 +1964,13 @@ p.source-content {
     height: 100%;
     width: 100%;
     filter: opacity(20%);
+}
+
+@media (max-width: 640px) {
+    #lottie {
+        scale: 90%;
+        filter: opacity(20%);
+    }
 }
 
 .coverHero {
