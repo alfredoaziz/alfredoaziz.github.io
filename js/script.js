@@ -4,3 +4,4 @@ bodymovin.loadAnimation({
     container: document.getElementById("lottie"), path: 'cover-main.json',
     animationData: animdata
 })
+
