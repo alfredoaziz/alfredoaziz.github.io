@@ -91,7 +91,7 @@ img {
 }
 
 table {
-    border-collapse: collapse
+    border-collapse: collapseselect
 }
 
 iframe {
@@ -1108,6 +1108,69 @@ main {
 }
 
 #section_keluhan .scLocation .locationItem-inner img {
+    position: absolute;
+    margin: 0 auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
+}
+
+#section_demografi .scBody .boxOrange {
+    background: hsla(27,90%,88%,.95);
+    border: 1px solid #000;
+    border-radius: 30px;
+    position: relative;
+    padding: 25px
+}
+
+#section_demografi .scLocation {
+    margin: 40px 0 0
+}
+
+#section_demografi .scLocation .titleSc {
+    font-family: SoccerLeague,sans-serif;
+    font-size: 28px;
+    line-height: 105%;
+    text-align: center;
+    letter-spacing: .1em
+}
+
+#section_demografi .scLocation .locationWrap {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: 0
+}
+
+#section_demografi .scLocation .locationItem {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translate(100%);
+    transform: translate(100%);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    width: 100%
+}
+
+#section_demografi .scLocation .locationItem.active {
+    -webkit-transform: translate(0);
+    transform: translate(0)
+}
+
+#section_demografi .scLocation .locationItem-inner {
+    position: relative;
+    padding-top: 120%;
+    overflow: hidden
+}
+
+#section_demografi .scLocation .locationItem-inner img {
     position: absolute;
     margin: 0 auto;
     -o-object-fit: cover;
