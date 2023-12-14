@@ -204,6 +204,11 @@ input:focus:-moz-placeholder,input:focus:-ms-input-placeholder,input:focus::-moz
     }
 }
 
+@media (max-width: 380px) {
+    .container-inner {
+        max-width:50%
+    }
+}
 
 .mb-0 {
     margin-bottom: 0!important
@@ -240,7 +245,7 @@ input:focus:-moz-placeholder,input:focus:-ms-input-placeholder,input:focus::-moz
 }
 
 main {
-    overflow-y: hidden
+    overflow-y: hidden;
 }
 
 @-webkit-keyframes a {
@@ -614,6 +619,7 @@ main {
     margin: 0;
     padding: 0 10px;
     position: relative;
+    display: flex;
     color: #003329;
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
@@ -643,7 +649,7 @@ main {
     background: rgba(0,0,0,.5);
 }
 
-@media (min-width: 890px) {
+@media (min-width: 990px) {
     .header {
         padding:0 15px
     }
@@ -661,7 +667,7 @@ main {
     filter: blur(2px)
 }
 
-@media (min-width: 890px) {
+@media (min-width: 990px) {
     .header.-transparent {
         background:transparent
     }
@@ -688,7 +694,7 @@ main {
     gap: 10px
 }
 
-@media (max-width: 280px) {
+@media (max-width: 380px) {
     .header-right {
         gap:5px
     }
@@ -717,7 +723,7 @@ main {
 
 @media (max-width: 640px) {
     .sectionTitle {
-        font-size:30px;
+        font-size:60px;
         line-height: 40px;
         letter-spacing: 3px
     }
@@ -836,15 +842,22 @@ main {
 
 @media (max-width: 768px) {
     #section_intro .f_big {
-        font-size:95px
+        font-size:35px
     }
 }
 
 @media (max-width: 640px) {
     #section_intro .f_big {
-        font-size:12vw
+        font-size:6vw
     }
 }
+
+@media (max-width: 380px) {
+    #section_intro .f_big {
+        font-size:2vw
+    }
+}
+
 .box {
     width: 40%;
     margin: 0 auto;
@@ -1991,10 +2004,12 @@ p.source-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 .coverMain-svg {
+    display: flex;
     width: 112%;
     position: absolute;
     bottom: -55vw
