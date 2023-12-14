@@ -689,7 +689,7 @@ main {
     gap: 10px
 }
 
-@media (max-width: 280px) {
+@media (max-width: 180px) {
     .header-right {
         gap:5px
     }
