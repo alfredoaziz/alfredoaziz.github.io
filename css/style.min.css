@@ -643,7 +643,7 @@ main {
     background: rgba(0,0,0,.5);
 }
 
-@media (min-width: 990px) {
+@media (min-width: 890px) {
     .header {
         padding:0 15px
     }
@@ -661,7 +661,7 @@ main {
     filter: blur(2px)
 }
 
-@media (min-width: 990px) {
+@media (min-width: 890px) {
     .header.-transparent {
         background:transparent
     }
@@ -688,7 +688,7 @@ main {
     gap: 10px
 }
 
-@media (max-width: 380px) {
+@media (max-width: 280px) {
     .header-right {
         gap:5px
     }
